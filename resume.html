@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Lily's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="resume.html" class="active">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section class="projects page-section">
+        <div class="page-container">
+            <h1 class="page-title">Resume</h1>
+            
+            <!-- Resume Download Section -->
+            <div class="resume-download-section">
+                <div class="resume-download-card">
+                    <div class="resume-download-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <div class="resume-download-content">
+                        <h3>My Resume</h3>
+                        <a href="/Users/lilyniu/Downloads/Niu, Lily Resume.pdf" class="btn primary" download>
+                            <i class="fas fa-download"></i> Download PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <h2 class="section-subtitle">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="/Users/lilyniu/Downloads/house.png" alt="Web Development Project">
+                    <h3>Multi Agent RPG Playground</h3>
+                    <p>Developing a 2D role-playing game where each non-player character is powered by a large language model and 
+                        designed as a goal-driven agent.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/okkirisss/multi_agent_playground" class="btn">Source Code</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/civic.avif" alt="Web Development Project">
+                    <h3>News API</h3>
+                    <p>A full-stack application for aggregating and analyzing news articles from various sources. 
+                        The project consists of a Next.js frontend and an Express.js backend that interfaces with news APIs.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/diversatech-penn/civic-news-api" class="btn">Source Code</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="/Users/lilyniu/Downloads/cabs.png" alt="Web Development Project">
+                    <h3>StrategiX</h3>
+                    <p>AI-powered pharmaceutical competitive intelligence tool using Python that integrates Gemini with 
+                        ClinicalTrials.gov data to generate comprehensive drug pipeline analysis reports.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/lilyniu88/StrategiXAgent" class="btn">Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="section-subtitle">Experiences</h2>
+            <div class="projects-grid">
+                <div class="experience-card">
+                  <div class="experience-header">
+                    <div class="experience-icon">
+                      <i class="fas fa-computer"></i>
+                    </div>
+                    <div>
+                      <h3 class="experience-title">SWE Intern</h3>
+                      <div class="experience-meta">
+                        <div class="experience-company">Civic</div>
+                        <div class="experience-duration">May 2025 - August 2025</div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="experience-description">
+                    Contributed to the development of automation tools for government communications by 
+                    improving both its technical performance and user accessibility
+                  </p>
+                  <ul class="experience-highlights">
+                    <li>Refining frontend components using React and Next.js</li>
+                    <li>Implemented accessibility enhancements to meet WCAG standards</li>
+                    <li>Collaborated with the founding team during agile sprints to meet evolving product goals</li>
+                  </ul>
+                </div>
+                <div class="experience-card">
+                  <div class="experience-header">
+                    <div class="experience-icon">
+                      <i class="fas fa-book"></i>
+                    </div>
+                    <div>
+                      <h3 class="experience-title">Research Assistant</h3>
+                      <div class="experience-meta">
+                        <div class="experience-company">University of Pennsylvania</div>
+                        <div class="experience-duration">August 2024 - Present</div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="experience-description">
+                    Assisted in the development of a machine learning powered health platform aimed at 
+                    improving wellness outcomes for older adults in the Philadelphia community
+                  </p>
+                  <ul class="experience-highlights">
+                    <li>Designed interface features, enabling over 50 elderly users to track wellness goals</li>
+                    <li>Analyzed behavioral data from 8 studies to validate key hypotheses and improve data reliability</li>
+                    <li>Assisted in the refinement of lecture materials to support undergraduate instruction in nursing concepts</li>
+                  </ul>
+                </div>
+                <div class="experience-card">
+                  <div class="experience-header">
+                    <div class="experience-icon">
+                      <i class="fas fa-users"></i>
+                    </div>
+                    <div>
+                      <h3 class="experience-title">Project Lead</h3>
+                      <div class="experience-meta">
+                        <div class="experience-company">Diversatech</div>
+                        <div class="experience-duration">September 2024 - Present</div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="experience-description">
+                    Delivered technical solutions and strategic insights for real-world clients
+                  </p>
+                  <ul class="experience-highlights">
+                    <li>Managed project timelines, delegated engineering tasks, and served as the primary 
+                        liaison between the client and technical team</li>
+                    <li>Led a four-person team to build a full-stack news recommendation feature, delivering a working demo and system architecture</li>
+                    <li>Conducted market research and competitive analysis to inform a robotics implementation plan for Infosys</li>
+                  </ul>
+                </div>
+            </div>
+
+            <h2 class="section-subtitle">Activities</h2>
+            <div class="interests-grid">
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Music</h3>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Painting</h3>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Stardew Valley</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html> 
