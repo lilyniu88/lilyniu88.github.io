@@ -114,8 +114,48 @@
         }
         .carousel-dot.active { background: var(--primary-color, #8CB9A0); }
         @media (max-width: 700px) {
-            .camera-body { width: 98vw; height: auto; }
-            .lcd-overlay { left: 10vw; top: 20vw; width: 55vw; height: 70vw; }
+            .camera-body { 
+                width: 98vw; 
+                height: auto; 
+                max-height: 80vh;
+            }
+            .lcd-overlay { 
+                left: 28%;  /* Percentage-based positioning */
+                top: 15%; 
+                width: 38%; 
+                height: 39%; 
+            }
+            .carousel-arrow {
+                width: 16px;
+                height: 16px;
+                font-size: 1.2rem;
+            }
+            .carousel-dots {
+                bottom: 5px;
+                gap: 6px;
+            }
+            .carousel-dot {
+                width: 4px;
+                height: 4px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .camera-body { 
+                width: 95vw; 
+                max-height: 70vh;
+            }
+            .lcd-overlay { 
+                left: 30%; 
+                top: 18%; 
+                width: 35%; 
+                height: 35%; 
+            }
+            .carousel-arrow {
+                width: 14px;
+                height: 14px;
+                font-size: 1rem;
+            }
         }
         .lightbox {
             display: none;
